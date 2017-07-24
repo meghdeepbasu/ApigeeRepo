@@ -79,7 +79,7 @@
 			<properties>
 				<apigee.profile>myTest</apigee.profile>
 				<apigee.env>test</apigee.env>
-				<apigee.hosturl>http://enterprise.apigee.com</apigee.hosturl>
+				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion> <!-- value of version in  https://api.enterprise.apigee.com/v2 -->
 				<apigee.org>${org}</apigee.org>
 				<apigee.username>${username}</apigee.username>
