@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxyEndpoint name="default">
+<Description>SampleBuildAndDeploy</Description>
+<FaultRules/>
+
+<PreFlow name="PreFlow">
+    <Request/>
+    <Response/>
+</PreFlow>
+    
+<Flows/>
+
+<PostFlow name="PostFlow">
+    <Request/>
+    <Response>
+        <Step>
+            <Name>Assign.SampleBuildAndDeployResponse</Name>
+        </Step>
+    </Response>
+</PostFlow>
+
+<HTTPProxyConnection>
+    <BasePath>/SampleBuildAndDeploy</BasePath>
+    <VirtualHost>default</VirtualHost>
+</HTTPProxyConnection>
+
+<RouteRule name="noroute"/>
+</ProxyEndpoint>

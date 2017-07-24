@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="12" name="SampleBuildAndDeploy">
+    <Basepaths>/SampleBuildAndDeploy</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1470900402624</CreatedAt>
+    <CreatedBy>mbasu@apigee.com</CreatedBy>
+    <Description>jenkins git: fb0313f2 Meghdeeps-MacBook-Pro.local ::Vodafone OpenID Connect</Description>
+    <DisplayName>SampleBuildAndDeploy</DisplayName>
+    <LastModifiedAt>1473226870944</LastModifiedAt>
+    <LastModifiedBy>mbasu@apigee.com</LastModifiedBy>
+    <Policies>
+        <Policy>Assign.SampleBuildAndDeployResponse</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+    <validate>false</validate>
+</APIProxy>

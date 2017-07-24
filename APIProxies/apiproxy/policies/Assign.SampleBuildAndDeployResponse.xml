@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage enabled="true" continueOnError="true" async="false" name="Assign.SampleBuildAndDeployResponse">
+    <FaultRules/>
+    <Properties/>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <Set>
+        <StatusCode>200</StatusCode>
+        <ReasonPhrase>OK</ReasonPhrase>
+        <!--Payload contentType="application/json" variablePrefix="%" variableSuffix="#">{
+         "Response": "Thanks for selecting Apigee and Kaar at Dubai...Have a Nice Day..!"}-->
+        <Payload contentType="application/json" variablePrefix="@" variableSuffix="#">
+        {
+            "name":"foo",
+            "type":"@request.header.user-agent#"
+        }
+        </Payload>
+    </Set>
+</AssignMessage>
