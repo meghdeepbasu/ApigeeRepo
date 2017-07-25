@@ -8,8 +8,8 @@
         <ReasonPhrase>OK</ReasonPhrase>
         <Payload contentType="application/json" variablePrefix="@" variableSuffix="#">
         {
-            "Name of API Proxy":@apiproxy.name,
-            "API Proxy version":@apiproxy.revision
+            "Name of API Proxy":"@apiproxy.name#",
+            "API Proxy version":"@apiproxy.revision#"
         }
         </Payload>
     </Set>
