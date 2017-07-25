@@ -75,9 +75,9 @@
 <!-- This is where you add the environment specific properties under various profile names -->		
 	<profiles>
 		<profile>
-			<id>myTest</id>
+			<id>test</id>
 			<properties>
-				<apigee.profile>myTest</apigee.profile>
+				<apigee.profile>test</apigee.profile>
 				<apigee.env>test</apigee.env>
 				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion> <!-- value of version in  https://api.enterprise.apigee.com/v2 -->
