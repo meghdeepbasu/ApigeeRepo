@@ -6,12 +6,10 @@
     <Set>
         <StatusCode>200</StatusCode>
         <ReasonPhrase>OK</ReasonPhrase>
-        <!--Payload contentType="application/json" variablePrefix="%" variableSuffix="#">{
-         "Response": "Thanks for selecting Apigee and Kaar at Dubai...Have a Nice Day..!"}-->
         <Payload contentType="application/json" variablePrefix="@" variableSuffix="#">
         {
-            "name":"foo",
-            "type":"@request.header.user-agent#"
+            "Name of API Proxy":@apiproxy.name,
+            "API Proxy version":@apiproxy.revision
         }
         </Payload>
     </Set>
