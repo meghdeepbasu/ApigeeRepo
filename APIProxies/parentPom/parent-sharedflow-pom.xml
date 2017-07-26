@@ -91,4 +91,5 @@
 				<apigee.authtype>${authtype}</apigee.authtype>
 			</properties>
 		</profile>
+	<profiles>
 </project>
