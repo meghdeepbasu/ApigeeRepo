@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlow name="default">
+    <Step>
+        <Condition>(response.status.code = "400")</Condition>
+        <Name>AM-BadRequestError</Name>
+    </Step>
+    <Step>
+        <Condition>(response.status.code = "401")</Condition>
+        <Name>AM-AuthenticationError</Name>
+    </Step>
+    <Step>
+        <Condition>(response.status.code = "404")</Condition>
+        <Name>AM-ServiceNotFoundFault</Name>
+    </Step>
+    <Step>
+        <Condition>(response.status.code = "504")</Condition>
+        <Name>AM-GatewayTimeoutFault</Name>
+    </Step>
+    <Step>
+        <Condition>( fault.name = "access_token_expired")</Condition>
+        <Name>AM-AccessTokenExpired</Name>
+    </Step>
+    <Step>
+        <Condition>( fault.name = "access_token_not_approved")</Condition>
+        <Name>AM-AccessTokenRevoked</Name>
+    </Step>
+    <Step>
+        <Condition>( fault.name = "InvalidAPICallAsNoApiProductMatchFound")</Condition>
+        <Name>AM-InvalidAPICallNoProductFound</Name>
+    </Step>
+    <Step>
+        <Condition>( fault.name = "SpikeArrestViolation")</Condition>
+        <Name>AM-SpikeArrestFault</Name>
+    </Step>
+    <Step>
+        <Condition>( fault.name = "QuotaViolation")</Condition>
+        <Name>AM-QuotaExceededFault</Name>
+    </Step>
+    <Step>
+        <Condition>( fault.name = "invalid_access_token") or ( fault.name = "InvalidAccessToken")</Condition>
+        <Name>AM-InvalidAccessToken</Name>
+    </Step>
+    <Step>
+        <Condition>( fault.name = "FailedToResolveAPIKey") or ( fault.name = "InvalidApiKey")</Condition>
+        <Name>AM-InvalidApiKeyFault</Name>
+    </Step>
+</SharedFlow>

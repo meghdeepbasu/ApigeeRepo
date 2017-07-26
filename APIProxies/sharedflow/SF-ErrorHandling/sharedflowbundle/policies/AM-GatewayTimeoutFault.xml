@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AssignMessage async="false" continueOnError="false" enabled="true" name="AM-GatewayTimeoutFault">
+    <DisplayName>AM-GatewayTimeoutFault</DisplayName>
+    <Properties/>
+    <Set>
+        <Headers/>
+        <QueryParams/>
+        <FormParams/>
+        <!-- <Verb>GET</Verb> -->
+        <FormParams/>
+        <!-- <Verb>GET</Verb> -->
+        <Payload contentType="application/json">
+            {
+            "errors":
+            {
+             "code":"400", 
+             "message": "Gateway Time out"
+            }
+            
+            }
+        </Payload>
+        <Path/>
+    </Set>
+    <AssignVariable>
+        <Name>name</Name>
+        <Value/>
+        <Ref/>
+    </AssignVariable>
+    <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+    <AssignTo createNew="false" transport="http" type="request"/>
+</AssignMessage>

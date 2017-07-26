@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="1" name="SF-ErrorHandling">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1495608678655</CreatedAt>
+    <CreatedBy>abc@yahoo.com</CreatedBy>
+    <Description>SF-Error-Handling</Description>
+    <DisplayName>SF-Error-Handling</DisplayName>
+    <LastModifiedAt>1496733065573</LastModifiedAt>
+    <LastModifiedBy>abc@yahoo.com</LastModifiedBy>
+    <Policies>
+        <Policy>AM-AccessTokenExpired</Policy>
+        <Policy>AM-AccessTokenRevoked</Policy>
+        <Policy>AM-AuthenticationError</Policy>
+        <Policy>AM-BadRequestError</Policy>
+        <Policy>AM-GatewayTimeoutFault</Policy>
+        <Policy>AM-InvalidAPICallNoProductFound</Policy>
+        <Policy>AM-InvalidAccessToken</Policy>
+        <Policy>AM-InvalidApiKeyFault</Policy>
+        <Policy>AM-QuotaExceededFault</Policy>
+        <Policy>AM-ServiceNotFoundFault</Policy>
+        <Policy>AM-SpikeArrestFault</Policy>
+    </Policies>
+    <Resources/>
+    <Spec></Spec>
+    <subType>SharedFlow</subType>
+    <validate>false</validate>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>
