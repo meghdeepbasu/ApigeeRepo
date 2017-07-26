@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ProxyEndpoint name="default">
 <Description>SampleBuildAndDeploy</Description>
-<FaultRules/>
+<FaultRules>
+    <FaultRule>
+        <Step>
+            <Name>FC-FaultHandling</Name>
+        </Step>
+    </FaultRule>
+</FaultRules> 
 
 <PreFlow name="PreFlow">
     <Request/>
