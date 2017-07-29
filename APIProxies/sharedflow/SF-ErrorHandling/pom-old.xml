@@ -1,12 +1,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>apigee</groupId>
+    <groupId>Apigeeks</groupId>
     <artifactId>parent-sharedflow-pom</artifactId>
     <version>1.0</version>
-	<relativePath>../../parent-pom/parent-sharedflow-pom.xml</relativePath>
+	<relativePath>../../parentPom/parent-sharedflow-pom.xml</relativePath>
   </parent>
-  <groupId>com.sapient.carnival.api</groupId>
+  <groupId>Apigeeks</groupId>
   <artifactId>SF-ErrorHandling</artifactId>
   <version>1.0</version>
   <packaging>pom</packaging>

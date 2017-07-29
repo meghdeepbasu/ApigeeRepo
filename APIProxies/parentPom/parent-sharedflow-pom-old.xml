@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>apigee</groupId>
+	<groupId>Apigeeks</groupId>
 	<artifactId>parent-sharedflow-pom</artifactId>
 	<packaging>pom</packaging>
 	<version>1.0</version>
@@ -78,32 +78,18 @@
 			<id>test</id>
 			<properties>
 				<apigee.profile>test</apigee.profile>
-				<apigee.hosturl>http://10.12.162.6:8080</apigee.hosturl>
+				<apigee.env>test</apigee.env>
+				<apigee.hosturl>https://api.enterprise.apigee.com</apigee.hosturl>
 				<apigee.apiversion>v1</apigee.apiversion> <!-- value of version in  https://api.enterprise.apigee.com/v2 -->
 				<apigee.org>${org}</apigee.org>
 				<apigee.username>${username}</apigee.username>
 				<apigee.password>${password}</apigee.password>
-				<apigee.apitype>sharedflow</apigee.apitype>
-				<apigee.tokenurl>${tokenurl}</apigee.tokenurl>
-				<apigee.authtype>${authtype}</apigee.authtype>
-			</properties>
-		</profile>
-			<profile>
-			<id>qa</id>
-			<properties>
-				<apigee.profile>qa</apigee.profile>
-				<apigee.hosturl>http://10.12.162.6:8080</apigee.hosturl>
-				<apigee.apiversion>v1</apigee.apiversion> <!-- value of version in  https://api.enterprise.apigee.com/v2 -->
-				<apigee.org>${org}</apigee.org>
-				<apigee.username>${username}</apigee.username>
-				<apigee.password>${password}</apigee.password>
-				<apigee.apitype>sharedflow</apigee.apitype>
+				<apigee.override>true</apigee.override>
+				<apigee.override.delay>15</apigee.override.delay>
+				<apigee.options>${options}</apigee.options>
 				<apigee.tokenurl>${tokenurl}</apigee.tokenurl>
 				<apigee.authtype>${authtype}</apigee.authtype>
 			</properties>
 		</profile>
 	</profiles>
-
 </project>
-
-
