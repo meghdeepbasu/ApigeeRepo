@@ -6,7 +6,7 @@
     <version>1.0</version>
 	<relativePath>../../parentPom/parent-sharedflow-pom.xml</relativePath>
   </parent>
-  <groupId>com.sapient.carnival.api</groupId>
+  <groupId>Apigeeks</groupId>
   <artifactId>SF-ErrorHandling</artifactId>
   <version>1.0</version>
   <packaging>pom</packaging>
