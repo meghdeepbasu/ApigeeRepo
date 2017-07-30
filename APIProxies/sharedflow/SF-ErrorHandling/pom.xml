@@ -7,9 +7,9 @@
 	<relativePath>../../parentPom/parent-sharedflow-pom.xml</relativePath>
   </parent>
   <groupId>Apigeeks</groupId>
-  <artifactId>SFErrorHandling</artifactId>
+  <artifactId>SF-ErrorHandling</artifactId>
   <version>1.0</version>
   <packaging>pom</packaging>
-  <name>SFErrorHandling</name>
-  <description>sharedflowErrorHandling</description>
+  <name>SF-ErrorHandling</name>
+  <description>sharedflow-ErrorHandling</description>
 </project>
