@@ -4,10 +4,10 @@
 		<groupId>apigee</groupId>
 		<artifactId>config-pom</artifactId>
 		<version>1.0</version>
-		<relativePath>../parent-pom/parent-config-pom.xml</relativePath>
+		<relativePath>../parentPom/parent-config-pom.xml</relativePath>
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.sapient.carnival.api</groupId>
+	<groupId>Apigeeks</groupId>
 	<artifactId>ConfigOnly</artifactId>
 	<version>1.0</version>
 	<name>ConfigOnly</name>
