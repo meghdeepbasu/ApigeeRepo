@@ -1,0 +1,27 @@
+[
+    {
+        "name": "myApiProduct",
+        "displayName": "myApiProduct",
+        "description": "Contains apis for me",
+        "apiResources": [
+            "/**",
+            "/"
+        ],
+        "approvalType": "auto",
+        "attributes": [
+        ],
+        "environments": [
+            "dev"
+        ],
+        "proxies": [
+            "sampleBuildAndDeploy",
+			"oauth"
+        ],
+        "quota": "10000",
+        "quotaInterval": "1",
+        "quotaTimeUnit": "minute",
+        "scopes": [
+		 "public"
+		]
+    }
+]

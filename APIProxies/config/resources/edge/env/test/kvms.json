@@ -1,0 +1,16 @@
+[
+    {
+		"encrypted": false,
+		"entry": [
+		{
+				"name": "myEntry1",
+				"value": "abcd"
+		},
+		{
+				"name": "myEntry2",
+				"value": "efgh"
+		}
+		],
+		"name": "api_proxies_version"
+	}
+]

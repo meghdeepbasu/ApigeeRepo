@@ -1,0 +1,16 @@
+{
+  "host": "api.myjson.com",
+  "isEnabled": true,
+  "name": "myCruiseprice",
+  "port": 8080,
+    "sSLInfo": {
+      "ciphers": [],
+        "clientAuthEnabled": "true",
+        "enabled": "true",
+        "ignoreValidationErrors": true,
+      "keyAlias": "ESBKeystore",
+      "keyStore": "ESBKeystore",
+        "protocols": []
+    }
+
+}

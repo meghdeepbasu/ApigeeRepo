@@ -1,0 +1,18 @@
+{
+    "agupta267@sapient.com": [
+        {
+            "apiProducts": [
+                "myApiProduct"
+            ],
+            "callbackUrl": "",
+            "name": "myApiProduct",
+            "scopes": [],
+			"attributes" : [ 
+			{
+				"name" : "DisplayName",
+				"value" : "myApiProduct"
+			}
+			]
+        }
+    ]
+}
