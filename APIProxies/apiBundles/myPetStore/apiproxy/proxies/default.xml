@@ -4,17 +4,20 @@
     <FaultRules>
         <FaultRule>
             <Step>
-                <Name>FC-FaultHandling</Name>
+                <Name>sfFaultHandling</Name>
+            </Step>
+            <Step>
+                <Name>genericFaultHandler</Name>
             </Step>
         </FaultRule>
     </FaultRules>
     <PreFlow name="PreFlow">
         <Request>
             <Step>
-                <Name>verify-oauth-v2-access-token</Name>
+                <Name>verifyAccessToken</Name>
             </Step>
             <Step>
-                <Name>remove-header-authorization</Name>
+                <Name>removeAuthHeader</Name>
             </Step>
         </Request>
         <Response/>

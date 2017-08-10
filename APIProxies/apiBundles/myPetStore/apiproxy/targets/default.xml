@@ -4,7 +4,10 @@
     <FaultRules>
         <FaultRule>
             <Step>
-                <Name>FC-FaultHandling</Name>
+                <Name>sfFaultHandling</Name>
+            </Step>
+            <Step>
+                <Name>genericFaultHandler</Name>
             </Step>
         </FaultRule>
     </FaultRules>
