@@ -15,7 +15,8 @@
         ],
         "proxies": [
             "sampleBuildAndDeploy",
-			"oauth"
+			"oauth",
+            "myPetStore"
         ],
         "quota": "10000",
         "quotaInterval": "1",
