@@ -1,15 +1,15 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>Apigee</groupId>
-    <artifactId>parent-sharedflow-pom</artifactId>
+    <groupId>Apigeeks</groupId>
+    <artifactId>parent-apiproxy-pom</artifactId>
     <version>1.0</version>
-	<relativePath>../../parentPom/parent-sharedflow-pom.xml</relativePath>
+	<relativePath>../../parentPom/parent-apiproxy-pom.xml</relativePath>
   </parent>
-  <groupId>Apigee</groupId>
-  <artifactId>SF-ErrorHandling</artifactId>
+  <groupId>Apigeeks</groupId>
+  <artifactId>myPetStore</artifactId>
   <version>1.0</version>
   <packaging>pom</packaging>
-  <name>SF-ErrorHandling</name>
-  <description>sharedflow-ErrorHandling</description>
+  <name>myPetStore</name>
+  <description>myPetStore</description>
 </project>
